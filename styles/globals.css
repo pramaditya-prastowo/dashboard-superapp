@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +13,19 @@ a {
 
 * {
   box-sizing: border-box;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans";
+  }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
